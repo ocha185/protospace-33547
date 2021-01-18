@@ -1,12 +1,12 @@
-<%= form_with model: @prototypes, local: true do |f| %>
+<%= form_with model: prototype, local: true do |f| %>
   <div class="field">
     <%= f.label :title, "プロトタイプの名称" %><br />
     <%= f.text_field :title %>
   </div>
 
   <div class="field">
-    <%= f.label :cath_copy, "キャッチコピー" %><br />
-    <%= f.text_area :cath_copy, class: :form__text %>
+    <%= f.label :catch_copy, "キャッチコピー" %><br />
+    <%= f.text_area :catch_copy, class: :form__text %>
   </div>
 
   <div class="field">
