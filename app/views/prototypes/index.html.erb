@@ -6,9 +6,6 @@
         こんにちは
         <%= link_to current_user.name, user_path(current_user), class: :greeting__link%>
       </div>
-      <div class="protorypes">
-        <%= render partial: 'prototype', collection: @prototypes %>
-      </div>
     <% end %>
     <%# // ログインしているときは上記を表示する %>
     <div class="card__wrapper">
